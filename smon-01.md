@@ -5,4 +5,10 @@
 Создайте виртуальную машину в Yandex Compute Cloud и с помощью Yandex Monitoring создайте дашборд, на котором будет видно загрузку процессора.
 Прикрепите в файл README.md скриншот вашего дашборда в Yandex Monitoring с мониторингом загрузки процессора виртуальной машины
 
+ВМ и возможность подключения к ней по ssh:
+
+![image](https://github.com/ValKop/homeworks/assets/60344304/bbd3aed6-6fd6-4e67-91e5-7975999da730)
+
+Дашбоард:
+
 ![image](https://github.com/ValKop/homeworks/assets/60344304/d0875e8a-06c5-4c7d-a898-6f7b59b53f6d)
