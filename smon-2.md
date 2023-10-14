@@ -22,9 +22,7 @@
 Импортируем начальную схему и данные:  
 `zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix`
 
-
-
-
-
-`systemctl restart zabbix-server zabbix-agent apache2`  
+Вводим пароль от БД в кофиг /etc/zabbix/zabbix-server.conf и вручаем сервисам автозапуск после перезагрузки:  
+`systemctl restart zabbix-server zabbix-agent apache2`   
 `systemctl enable zabbix-server zabbix-agent apache2`
+
